@@ -1,5 +1,5 @@
 {
-  "name": "shardstatssenderdsu",
+  "name": "dbdsoftuishardstats",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/artificialai223/ShardStatsSenderDSU.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "artificialai223",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/artificialai223/ShardStatsSenderDSU/issues"
   },
