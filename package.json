@@ -1,0 +1,24 @@
+{
+  "name": "shardstatssenderdsu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd ../ && node sharder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artificialai223/ShardStatsSenderDSU.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artificialai223/ShardStatsSenderDSU/issues"
+  },
+  "homepage": "https://github.com/artificialai223/ShardStatsSenderDSU#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-fetch": "^3.2.10"
+  }
+}
