@@ -43,5 +43,5 @@ module.exports.register = async function(manager, data) {
         }).catch(err => console.log(err))
 
     }
-    setInterval(submitstats, 15000)
+    setInterval(submitstats, data.interval * 1000 || 15000)
 }
