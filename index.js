@@ -9,10 +9,10 @@ module.exports.register = async function(manager, data) {
 
     async function submitstats() {
 
-        let guilds = await manager.broadcastEval(`this.guilds.cache.size`)
-        let users = await manager.broadcastEval(`this.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)`)
-        let channels = await manager.broadcastEval(`this.channels.cache.size`)
-        let ping = await manager.broadcastEval(`this.ws.ping`)
+        let guilds = await manager.broadcastEval(c => c.guilds.cache.size)
+        let users = await manager.broadcastEval(c => c.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0))
+        let channels = await manager.broadcastEval(c => c.channels.cache.size)
+        let ping = await manager.broadcastEval(c => c.ws.ping)
 
 
         let list = []
